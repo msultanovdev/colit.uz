@@ -1,0 +1,8 @@
+.cards__block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards {
+    margin-top: 200px;
+}
