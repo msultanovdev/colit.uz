@@ -1,0 +1,23 @@
+.logo {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.logo:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.762);
+}
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    background-color: rgba(0, 0, 0, 0.242);
+    height: 60px;
+    display: flex;
+    align-self: center;
+}
