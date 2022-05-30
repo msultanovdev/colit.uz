@@ -9,7 +9,7 @@ const Header = () => {
             <a className="logo" href="#">
                 Colit
             </a>
-            <Button title="Contact Us" />
+            <Button title="Связаться с нами" />
         </div>
     </div>
   )

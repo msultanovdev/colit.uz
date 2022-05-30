@@ -1,7 +1,11 @@
 .cards__block {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+}
+.cards__title {
+    font-size: 50px;
 }
 .cards {
     margin-top: 200px;

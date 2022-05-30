@@ -1,16 +1,20 @@
 .card {
-    padding: 10px 20px;
+    padding: 15px 20px;
     color: white;
+    width: 400px;
+}
+.card__image {
+    filter: invert();
 }
 .card__title {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 900;
 }
 .card__description {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: normal;
 }
 .card img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }

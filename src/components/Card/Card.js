@@ -1,14 +1,13 @@
 import React from 'react';
 import './Card.css';
 
-const Card = () => {
+const Card = ({ image, title, desctiption }) => {
   return (
     <div className="card">
-        <img src="../../../../chess-react/src/assets/white-king.png" />
-        <h1 className="card__title">Service</h1>
+        <img className="card__image" src={image} />
+        <h1 className="card__title">{title}</h1>
         <p className="card__description">
-            Корпоративный сайт – это сайт компании,<br />
-            ее официальное виртуальное представительство в интернете.
+            {desctiption}
         </p>
     </div>
   )

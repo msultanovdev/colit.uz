@@ -1,5 +1,5 @@
 import React from 'react';
-import Cards from '../../components/Cards/Cards';
+import Cards from '../Cards/Cards';
 import './Home.css';
 
 const Home = () => {
@@ -15,8 +15,11 @@ const Home = () => {
               <h1 className="home__title" >
                 Collaboration of IT
               </h1>
+              <p className="home__description">
+                Создадим сильнейший бренд для вашего бизнеса,<br /> продающий сайт и платформы CRM, ERP
+              </p>
 
-              {/* <Cards /> */}
+              <Cards />
           </div>
         </div>
 
