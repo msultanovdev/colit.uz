@@ -4,13 +4,19 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-
 .container {
     width: 1320px;
     margin: 0 auto;
 }
 
+a:hover {
+    cursor: pointer;
+}
 
-
-
+@media only screen and (max-width: 900px) {
+    .container {
+        width: 400px;
+        margin: 0 auto;
+    }
+}
 

@@ -11,7 +11,7 @@ const AboutUs = () => {
     <div className="container">
         <div className="about">
 
-            <h1 className="about__title">Кто мы?</h1>
+            <h1 className="about__title">- Кто мы? -</h1>
             <div className="about__block">
 
                 <p className="about__description">
@@ -39,7 +39,26 @@ const AboutUs = () => {
                     </div>
                 </div>
 
+
             </div>
+                <div className="about__images__mobile">
+                    <div className="about-image__block">
+                        <img className="about__image" src={collaboration} />
+                        <p className="about-image__title">Команда квалифицированных профессионалов</p>
+                    </div>
+                    <div className="about-image__block">
+                        <img className="about__image" src={collaboration} />
+                        <p className="about-image__title">Команда квалифицированных профессионалов</p>
+                    </div>
+                    <div className="about-image__block">
+                        <img className="about__image" src={collaboration} />
+                        <p className="about-image__title">Команда квалифицированных профессионалов</p>
+                    </div>
+                    <div className="about-image__block">
+                        <img className="about__image" src={collaboration} />
+                        <p className="about-image__title">Команда квалифицированных профессионалов</p>
+                    </div>
+                </div>
 
         </div>
     </div>

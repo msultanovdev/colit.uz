@@ -589,10 +589,19 @@ html {
     }
 }
 
-/* @media screen (max-width: 720px) {
-    .stars {
-        display: none;
+@media only screen and (max-width: 900px) {
+    .title {
+        top: 30%;
+        margin-top: 0px;
     }
-} */
+    .home__title {
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+    .home__description {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+}
 
 

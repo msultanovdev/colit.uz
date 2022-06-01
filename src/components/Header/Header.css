@@ -24,3 +24,13 @@
     position: fixed;
     z-index: 1;
 }
+
+@media only screen and (max-width: 900px) {
+    .logo {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+    .header {
+        max-width: 900px;
+    }
+}

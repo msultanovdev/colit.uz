@@ -1,0 +1,32 @@
+.footer {
+    margin-top: 100px;
+    padding: 20px 0px 10px 0px;
+}
+.footer__content {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer__adress {
+    font-size: 15px;
+    color: white;
+}
+.footer__icon {
+    width: 45px;
+    height: 45px;
+    filter: invert();
+}
+
+@media only screen and (max-width: 900px) {
+    .footer__content {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .footer__icon {
+        margin: 5px;
+    }
+}

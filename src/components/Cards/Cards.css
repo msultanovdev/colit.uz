@@ -12,3 +12,33 @@
 .cards {
     margin-top: 230px;
 }
+.cards__block__mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .cards__title {
+        font-size: 25px;
+        margin-bottom: 60px;
+        letter-spacing: 2px;
+    }
+    .cards__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .cards__block {
+        display: none;
+    }
+    .cards__block__mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .cards__title {
+        font-size: 25px;
+        margin-bottom: 50px;
+        letter-spacing: 2px;
+    }
+}

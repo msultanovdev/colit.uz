@@ -23,6 +23,19 @@ const Cards = () => {
             <Card image={camera} title="Фото-мото" desctiption="Рекламные видеоролики, обзоры, фотосъёмка Вашей продукции для рекламы." />
             <Card image={mind} title="Услуга брендинга" desctiption="Брендинг - это создание идей, ценностей и чувств в сознании клиентов, формирования позитивного образа у целевой аудитории" />
         </div>
+
+        <div className="cards__block__mobile">
+            <Card image={intagramLogo} title="SMM" desctiption="Продвигай свой бизнес через социальные сети!" />
+            <Card image={logo} title="Создание лого" desctiption="Выделите свой бизнес профессиональным логотипом" />
+        </div>
+        <div className="cards__block__mobile">
+            <Card image={website} title="Создание веб-страницы" desctiption="Регистрируйте свой бизнес в сети Интернет!" />
+            <Card image={camera} title="Фото-мото" desctiption="Рекламные видеоролики, обзоры, фотосъёмка Вашей продукции для рекламы." />
+        </div>
+        <div className="cards__block__mobile">
+            <Card image={ui} title="Уникальный дизайн" desctiption="Рекламные видеоролики, обзоры, фотосъёмка Вашей продукции для рекламы." />
+            <Card image={mind} title="Услуга брендинга" desctiption="Брендинг - это создание идей, ценностей и чувств в сознании клиентов, формирования позитивного образа у целевой аудитории" />
+        </div>
     </div>
   )
 }
