@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutUs from '../AboutUs/AboutUs';
 import Cards from '../Cards/Cards';
 import './Home.css';
 
@@ -20,6 +21,8 @@ const Home = () => {
               </p>
 
               <Cards />
+              <AboutUs />
+
           </div>
         </div>
 

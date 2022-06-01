@@ -2,6 +2,7 @@
     font-family: 'Caveat', cursive;
     font-size: 40px;
     font-weight: bold;
+    letter-spacing: 8px;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     transition: 0.5s;
@@ -16,8 +17,10 @@
     justify-content: space-between;
 }
 .header {
-    background-color: rgba(0, 0, 0, 0.242);
+    background-color: rgba(0, 0, 0, 0.719);
     height: 60px;
     display: flex;
     align-self: center;
+    position: fixed;
+    z-index: 1;
 }

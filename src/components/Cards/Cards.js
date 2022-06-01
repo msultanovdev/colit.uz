@@ -12,7 +12,7 @@ import camera from '../../assets/camera.png';
 const Cards = () => {
   return (
     <div className="cards">
-        <h1 className="cards__title">Наши Услуги: </h1>
+        <h1 className="cards__title">- Наши Услуги -</h1>
         <div className="cards__block">
             <Card image={intagramLogo} title="SMM" desctiption="Продвигай свой бизнес через социальные сети!" />
             <Card image={logo} title="Создание лого" desctiption="Выделите свой бизнес профессиональным логотипом" />

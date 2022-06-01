@@ -2,11 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .cards__title {
     font-size: 50px;
+    margin-bottom: 80px;
+    letter-spacing: 4px;
 }
 .cards {
-    margin-top: 200px;
+    margin-top: 230px;
 }
